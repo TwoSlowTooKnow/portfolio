@@ -1,0 +1,20 @@
+body{
+    background-image: url(../images/background.jpg)
+}
+header{
+    background-color: #9b743d;
+    width: 30%;
+    height: 65px;
+    margin: auto;
+    text-align: center;
+}
+.headerTitle{
+    margin-top: 10px;
+}
+.main{
+    background-color: #9b743d;
+    width: 60%;
+    height: 775px;
+    margin: auto;
+    margin-top: 20px;
+}

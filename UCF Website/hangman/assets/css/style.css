@@ -1,0 +1,53 @@
+body{
+    background-image: url(../images/background-img.png);
+}
+
+.header{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #FAEB60;
+    width: 50%;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+}
+
+.content{
+    position: relative;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #86DDFA;
+    width: 60%;
+    height: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.spotForBlanks{
+    margin-left: 300px;
+    font-size: larger;
+}
+.scoreBoard{
+    width: 175px;
+    height: 300px;
+}
+.buttons{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 20px;
+    margin-bottom: 250px;
+}
+.letters{
+    padding: 10px;
+
+}
+.footer{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #FAEB60;
+    width: 50%;
+    height: 75px;
+    margin: auto;
+    text-align: center;   
+}

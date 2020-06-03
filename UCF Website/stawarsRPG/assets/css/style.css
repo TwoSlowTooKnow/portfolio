@@ -1,0 +1,13 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+}
+.title{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.column{
+    padding: 10px;
+}
