@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starwars RPG</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <audio src="./assets/audio/Imperial March.mp3" id="emprMarch" loop="loop"></audio>
+    <script src="./assets/JS/index.js"></script>
     <h1 class="title">Star Wars RPG!</h1>
     <div class="row">
         <div class="column">
-            <img src="assets/images/obiwan.jpg" alt="heroOne">
+            <img src="assets/images/obiwan.jpg" class="green" id="obiwan" alt="heroOne" height="145px" width="145px" >
         </div>
         <div class="column">
-            <img src="assets/images/yoda.jpg" alt="heroTwo" height="225px" width="225px">
+            <img src="assets/images/yoda.jpg" class="green" id="yoda" alt="heroTwo" height="145px" width="145px">
         </div>
         <div class="column">
-            <img src="assets/images/darthmaul.jpg" alt="heroThree" height="225px" width="225px">
+            <img src="assets/images/darthmaul.jpg" class="red" id="darthMaul" alt="heroThree" height="145px" width="145px">
         </div>
         <div class="column">
-            <img src="assets/images/gg.jpg" alt="heroFour" height="225px" width="225px">
+            <img src="assets/images/gg.jpg" class="red" id="gg" alt="heroFour" height="145px" width="145px">
         </div>
     </div>
+    <h1 class="defArea">Defender Area</h1>
+    <button id="atk">attack</button>
+    <button id="dfnd">defend</button>
+    <h1 class="atkArea">Attacker Area</h1>
 </body>
 </html>

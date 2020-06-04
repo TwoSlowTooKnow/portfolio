@@ -9,46 +9,34 @@ var wordList =[
     "Gengar",
 ];
 
-var letters = "abcdefghijklmnopqrstuvwxyz".split("")
 
-
-var word ="";
-var lettersInWord = 0;
-var numBlanks = 0;
-var blanksAndLetters = [];
-var wrongGuesses = [];
-
-var winCounter = 0;
-var losses = 0;
-var chances = 4;
+var alphabet = "abcdefghijklmnopqrstuvwxyz".split("")
+var score = document.getElementById("score")
+var loses = document.getElementById("loses")
+var hearts = document.getElementById("hearts")
+var blanksSpot = document.getElementById("blankSpot")
+var letterSpot = document.getElementById("letters")
 
 
 function startGame(){
-    wrongGuesses = 4
+    var chosenWord = wordList[Math.floor(Math.random()*wordList.length)]
+    console.log(chosenWord)
+    letterSpot.innerHTML = " "
+for ( i = 0; i < alphabet.length; i++) {
+    var button = document.createElement("button")
+    button.innerHTML = alphabet[i]
+    button.id = alphabet[i]
+    button.setAttribute(
+    "style",
+    "margin-right: 10px;"
+    )
+    letterSpot.appendChild(button)
+}
+   
+    blanksSpot.innerHTML = " "
+for ( i = 0; i < chosenWord.length; i++){
 
-    word = wordList[Math.floor(Math.random() * wordList.length)];
-    lettersInWord = word.split("");
-    numBlanks = lettersInWord.length;
+    blanksSpot.innerHTML += " _"
+}
 
-    console.log(word);
-
-    blanksAndLetters = [];
-    wrongGuesses = [];
-    
-    blankArea = document.getElementById("blankSpot")
-
-    for (i = 0; i < numBlanks; i++) {
-        
-    }
-
-    var div = document.getElementById("letters");
-    div.innerHTML = ""
-    for (let i = 0; i < letters.length; i++) {
-        var buttons = document.createElement("button")
-        div.appendChild(buttons);
-        buttons.setAttribute("style", "background-color:green; padding:10px");
-        buttons.innerHTML = letters[i];
-
-    }
-    
 }

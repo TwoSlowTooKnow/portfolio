@@ -11,3 +11,15 @@ body{
 .column{
     padding: 10px;
 }
+.green{
+    border: 5px solid green;
+}
+.red{
+    border: 5px solid red;
+}
+#atk{
+    margin-top: 150px;
+}
+#dfnd{
+    margin-top: 150px;
+}

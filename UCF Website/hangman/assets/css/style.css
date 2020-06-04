@@ -35,12 +35,12 @@ body{
 .buttons{
     position: absolute;
     bottom: 0px;
-    margin-left: 20px;
+    margin-left: 325px;
     margin-bottom: 250px;
 }
-.letters{
+#letters{
+    margin-left: 20px;
     padding: 10px;
-
 }
 .footer{
     border: 5px solid black;

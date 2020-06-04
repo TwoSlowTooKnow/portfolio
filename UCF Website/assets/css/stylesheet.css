@@ -1,3 +1,4 @@
+/* all pages */
 body{
     background-color: #84F1FF;
 }
@@ -22,13 +23,21 @@ header{
     float: right;
     margin-left: auto;
 }
+/* indexPage */
 .contentindex{
-    margin-right: 460px;
-    margin-left: 460px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 20px 100px;
+    background-color: white;
 }
+/* portfolioPage */
+
+/* contactPage */
 .contentcontact{
-    margin-right: 460px;
-    margin-left: 460px;
+    margin: 0 auto;
+    width: 40%;
 }
 .pictures{
     margin-top: 50px;
@@ -44,17 +53,13 @@ header{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
 }
-.inputboxindex{
-    border: 5px solid white;
-    margin-top: 100px;
-    background-color: white;
-    border-radius: 15px;
-}
+
 img{
     float: left;
     border-radius: 5px;
 }
 .inputboxcontact{
+    padding: 20px;
     border: 5px solid white;
     margin-top: 100px;
     font-size: large;
@@ -67,10 +72,24 @@ img{
 }
 .footer-tm{
     position: absolute;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     bottom: 0;
     background-color: #6DB9E8;
     width: 100%;
     text-align: center;
     border-top: 5px solid white;
+    border-bottom: 5px solid #6db9e8;
 }
-
+.footer-contact{
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0;
+    background-color: #6DB9E8;
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid white;
+    border-bottom: 5px solid #6db9e8;
+}
