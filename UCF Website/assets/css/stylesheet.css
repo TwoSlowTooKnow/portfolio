@@ -30,13 +30,12 @@ header{
     margin-right: 460px;
     margin-left: 460px;
 }
-.contentportfolio{
-    display: grid;
-    grid-template-columns: fr fr fr;
-    background-color: black;
+.pictures{
+    margin-top: 50px;
+    margin-left: 200px;
 }
-.img{
-    background-color: #84F1FF ;
+.clickable{
+    margin-left: 50px;
 }
 .main{
     float: left;
@@ -48,7 +47,6 @@ header{
 .inputboxindex{
     border: 5px solid white;
     margin-top: 100px;
-    font-size: large;
     background-color: white;
     border-radius: 15px;
 }
@@ -62,9 +60,6 @@ img{
     font-size: large;
     background-color: white;
     border-radius: 15px;
-}
-#form{
-    
 }
 #mainimage{
     margin-bottom: 247px;
